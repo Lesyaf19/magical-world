@@ -1,0 +1,53 @@
+#flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+body {
+  background-color: #33a1e0;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+#flex-container div {
+  max-width: 400px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+input {
+  font-family: Open Sans;
+  font-size: 1rem;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  margin-top: 20px;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.last {
+  margin-bottom: 0;
+}
